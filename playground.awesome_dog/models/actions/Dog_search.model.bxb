@@ -1,0 +1,22 @@
+action (Dog_search) {
+  type(Search)
+  description (A search for dogs)
+  //The things you'll send into the js file.
+  
+  collect {
+    input (breed) {
+      type (Breed)
+      min (Optional)
+      default-init {
+        intent {
+          goal: breedSelect
+        }
+      }
+    } 
+    input (subbreed) {
+      type (Subbreed)
+      min (Optional) 
+    }
+  }
+  output (Dog_struct) //Returning dog_image for the views.
+}

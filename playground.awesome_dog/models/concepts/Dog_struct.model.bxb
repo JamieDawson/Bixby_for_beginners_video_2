@@ -1,0 +1,26 @@
+structure (Dog_struct) {
+  description (a struct for the dog json info)
+  //This is what
+
+
+  //dog photo
+  property (dog_image) {
+    type (image.Image)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+
+  property (dog_breed) {
+    type (Breed)
+    min (Optional) max (One)
+    visibility (Public)
+    
+  }
+
+    property (dog_subbreed) {
+    type (Subbreed)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+
+}

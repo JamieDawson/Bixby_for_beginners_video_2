@@ -1,0 +1,27 @@
+capsule {
+  id (jamie_dawson.awesome_dog)
+  version (0.1.2)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-flags {
+    no-filtering-with-validation
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+
+   store-sections {
+    section (GamesAndFun)
+  }
+
+  capsule-imports {
+   import (viv.core) {
+     as (core)
+   }
+   import (viv.image) {
+     as (image) version (2.12.5)
+   }
+  }
+}
