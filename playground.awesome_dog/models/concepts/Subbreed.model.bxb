@@ -1,6 +1,0 @@
-name (Subbreed) {
-  description (A text concept for this project)
-  features {
-    transient
-  }
-}

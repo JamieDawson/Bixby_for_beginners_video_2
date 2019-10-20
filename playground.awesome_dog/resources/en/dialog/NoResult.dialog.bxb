@@ -1,0 +1,4 @@
+dialog (NoResult) {
+  match: Dog_struct (this)
+  template("No Dog by that name! Please give a real breed!")
+}

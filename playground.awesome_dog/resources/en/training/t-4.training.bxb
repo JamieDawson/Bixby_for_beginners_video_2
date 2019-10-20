@@ -1,0 +1,5 @@
+train (t-4r2r2hhz1irde43wwdjcjgut4) {
+  utterance ("[g:Dog_search] Show me a photo of a (boxer)[v:Breed]")
+  plan (Y2BmUM5KzM1MjU9JLC/Oz9NLLE8tzs8FcvPT9Vzy0+OLS4pKk0sIKUpNLErOYJDDqcipKDU1hYGJgRGIGYAkIwMIQPkA)
+  last-modified (1571543442975)
+}

@@ -21,7 +21,7 @@ capsule {
      as (core)
    }
    import (viv.image) {
-     as (image) version (2.12.5)
+     as (image) version (2.12.10)
    }
   }
 }
